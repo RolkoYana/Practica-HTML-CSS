@@ -1,0 +1,161 @@
+article, aside, footer, header, main, nav section{
+    display: block;
+}
+
+header{
+    background: linear-gradient(to bottom, #ccff33 0%, #336600 100%);
+    color: white;
+    padding: 20px 20px;
+    font-family: "Comic Sans MS",serif;
+    line-height: 0.5;
+}
+
+body{
+    width:1000px; /*width of the web page*/
+    margin-left: auto; /*to center the web page - set margin left and right to auto*/
+    margin-right: auto;
+    font-size: 15px;
+}
+
+nav{
+    background-color: #336600;
+    padding: 1px;
+    margin-top: 3px;
+}
+
+nav li{
+    display: inline;
+    margin-right:20px;
+    font-size: 14px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+
+li a{
+    color:white;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    width: 625px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+section {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+section h1{
+    color:#405d27;
+    padding: 0;
+    margin: 0;
+}
+
+section hr{
+    border: 1px solid #336600;
+}
+
+article{
+    padding: 0;
+    text-align: justify;
+}
+
+span{
+    font-style: italic;
+}
+
+dl{
+    margin-left: 40px;
+}
+dl dt h3{
+    color: #405d27;
+}
+
+dd{
+    color: #669900;
+}
+
+dl hr{
+    border: 1px solid #336600;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+aside{
+    width: 300px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.linea{
+    width: 100%;
+    height: 30px;
+    background-color: #D1E2C4;
+    border: 1px solid #D1E2C4;
+}
+
+.contenido{
+    width: 100%;
+    background-color: white;
+    text-align: justify;
+}
+
+.contenido li{
+    list-style-type: none;
+
+}
+
+.contenido hr{
+    margin-right: 20px;
+}
+
+.contenido a{
+    color: #669900;
+    margin: 0;
+    padding: 0;
+}
+
+.contenido li :hover{
+    color: darkgreen;
+}
+
+.side-icons{
+    width: 330px;
+}
+
+.side-icons img{
+    float: right;
+    width: 60px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    margin-left: 50px;
+}
+
+footer figure{
+    width: 100%;
+    display: inline;
+    margin: 3px;
+}
+
+footer figure img{
+    width: 70px;
+    height: auto;
+}
+
